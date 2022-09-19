@@ -1,0 +1,23 @@
+app:
+  name: "web_app"
+  mode: "dev"
+  prot: 3009
+
+log:
+  level: "debug"
+  filename: "web_app.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: "admin123"
+  dbname: "gorm_rk"
+
+redis:
+  host: "127.0.0.1"
+  port: 16379
+  db: 0
